@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Sorbetto & cia</title>
+      <link rel="stylesheet" href="css\style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+
+</head>
+<body>
+      <div class="wrapper">
+            <header class="image">
+
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              SORBETTO & CIA
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#sobrenos">Sobre nós</a></li>
+
+                                    <li><a href="#contato">Contato</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+            <div class="mensagem"
+            <p> Seja Bem-Vindo</p>
+
+            </div>
+
+            <div class="content">
+            <div class="main" id="sobrenos">
+
+                  <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+                  <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+             </div>
+             <div class="main" id="contato">
+                       <p class="marrom "<h2> Contato</h2></p>
+             Telefone: (11) 2865-0873<br>
+             Endereço:Rua Gardenia nº15, 06110240 Osasco<br>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3657.957705579125!2d-46.79483828538457!3d-23.534023566467507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sEndere%C3%A7o%3ARua+Gardenia+n%C2%BA15%2C+06110240+Osasco!5e0!3m2!1spt-BR!2sbr!4v1540400015880" width="300" height="225" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+            </div>
+      </div>
+
+
+
+
+
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+
+
+      </script>
+
+</body>
+</html>
